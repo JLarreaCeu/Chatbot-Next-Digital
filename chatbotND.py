@@ -18,11 +18,7 @@ from langgraph.prebuilt import create_react_agent
 
 load_dotenv()
 
-# el PDF está en la carpeta del taller, no aquí
-RUTA_PDF = os.path.join(
-    os.path.dirname(__file__),
-    "..", "taller-agentes-universidades", "datos", "documento.pdf"
-)
+RUTA_PDF = os.path.join(os.path.dirname(__file__), "datos", "documento.pdf")
 
 
 @st.cache_resource
