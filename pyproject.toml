@@ -1,0 +1,21 @@
+[project]
+name = "practica-chatbot-nextdigital"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=0.3.0",
+    "langchain-openai",
+    "langchain-chroma",
+    "langchain-text-splitters",
+    "langchain-community",
+    "langchain-core",
+    "langchain-classic",
+    "tiktoken",
+    "pypdf",
+    "python-dotenv",
+    "streamlit",
+    "langgraph>=0.2.39",
+    "duckduckgo-search>=6.0.0",
+    "numpy",
+    "ddgs>=9.14.2",
+]
