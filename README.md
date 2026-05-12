@@ -35,7 +35,7 @@ Hay una opción en el sidebar para ver los pasos que va dando el agente por dent
 ## Instalación
 
 ```bash
-git clone https://github.com/KrembolCeu/Proyecto-Chatbot-Next-Digital.git
+git clone https://github.com/JLarreaCeu/Proyecto-Chatbot-Next-Digital.git
 cd Proyecto-Chatbot-Next-Digital
 
 # instalar dependencias
