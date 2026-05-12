@@ -47,12 +47,12 @@ cp .env.example .env
 
 Edita `.env` y añade tu `OPENAI_API_KEY`.
 
-También necesitas tener el PDF que quieras indexar en `../taller-agentes-universidades/datos/documento.pdf` (o cambiar la ruta `RUTA_PDF` en `app.py`).
+También necesitas tener el PDF que quieras indexar en `../taller-agentes-universidades/datos/documento.pdf` (o cambiar la ruta `RUTA_PDF` en `chatbotND.py`).
 
 ## Ejecución
 
 ```bash
-PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python uv run streamlit run app.py
+PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python uv run streamlit run chatbotND.py
 ```
 
 La variable de entorno `PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python` es necesaria por un conflicto entre la versión de protobuf y chromadb en Python 3.14.
@@ -60,7 +60,7 @@ La variable de entorno `PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python` es necesa
 ## Estructura
 
 ```
-app.py          # toda la lógica: agente, guardarraíl e interfaz
+chatbotND.py          # toda la lógica: agente, guardarraíl e interfaz
 pyproject.toml  # dependencias
 .env.example    # variables de entorno necesarias (sin valores reales)
 ```
